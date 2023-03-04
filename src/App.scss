@@ -11,8 +11,8 @@ html {
 
 .aligner {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	padding-top: 2%;
 }
 
 .title-container {
@@ -30,6 +30,7 @@ html {
 }
 
 header {
+	background-image: url('../public/images/bg_image.jpg');
 	position: relative;
 	height: 520px;
 	min-height: 450px;
@@ -38,7 +39,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #cc8023;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,6 +52,17 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+}
+
+header .nav .nav-color {
+	color: #1F1F1F;
+}
+
+.me-header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 5%;
 }
 
 .github-corner:hover .octo-arm {
@@ -91,14 +103,16 @@ header .nav {
 	padding-top: 80px;
 }
 
+.subtitle {
+	font-size: 200%;
+}
+
 header h1 {
-	font-size: 400%;
-	text-align: center;
+	text-align: left;
+	font-size: 800%;
 	font-weight: 600 !important;
 	color: #353239;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin: 0 auto 18px auto;
-	width: 100%;
 }
 
 .slider-image {
@@ -233,7 +247,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #e7e7e7;
 }
 
 .experience-icon {
@@ -242,25 +256,25 @@ header h1 {
 	text-align: center;
 }
 
-.main-badge {
+#resume .main-badge {
 	font-size: 13px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: rgb(245 165 41) !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.experience-badge {
+#resume .experience-badge {
 	font-size: 11px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
-	font-weight: lighter !important;
+	background-color: rgb(245 165 41) !important;
+	color: white;
+	font-weight: bold !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -359,7 +373,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #e7e7e7;
 	padding-bottom: 5%;
 }
 
