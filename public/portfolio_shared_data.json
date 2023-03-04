@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Daniel Yoon",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Software Developer in Training" ],
       "social": [
         {
           "name": "github",
@@ -9,9 +9,9 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/dyoon24",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
