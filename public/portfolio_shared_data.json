@@ -1,11 +1,11 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
+      "name": "Daniel Yoon",
       "titles": [ "Software Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/yd24",
           "class": "fab fa-github"
         },
         {
