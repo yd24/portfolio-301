@@ -47,12 +47,12 @@ class Header extends Component {
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
           <Nav.Item> 
             <LinkContainer to="/">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link className="nav-color" href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>        
             <LinkContainer to="/about">
-              <Nav.Link eventKey="about">About</Nav.Link>
+              <Nav.Link className="nav-color" eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
@@ -100,13 +100,12 @@ class Header extends Component {
         </Nav>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
-            <div>
+            <div className="me-header">
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
+              <h1>
                 {name}
               </h1>
-              <div className="title-container">
+              <div className="subtitle">
                 <HeaderTitleTypeAnimation />
               </div>
               
