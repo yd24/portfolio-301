@@ -135,7 +135,9 @@ header h1 {
 
 .foto img {
 	display: block;
-	width: 100%;
+	max-width: 350px;
+	height: 300px;
+	object-fit: cover;
 }
 
 .foto div {
@@ -346,6 +348,10 @@ header h1 {
 
 .awssld__prev {
 	outline: none !important;
+}
+
+.awssld__content img {
+	object-fit: cover;
 }
 
 .loader-bar-color {
