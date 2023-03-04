@@ -79,37 +79,24 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Northwest Center",
+        "title": "Inventory Associate",
+        "years": "Jan 2020 - Sept 2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "Inventory Management"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Amazon",
+        "title": "Central Operations Associate",
+        "years": "Aug 2017 - Jun 2018",
         "mainTech": [
-          "Angular 7/8"
+          "Prime NOW Dispatch"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Javascript"
         ]
       }
     ]
